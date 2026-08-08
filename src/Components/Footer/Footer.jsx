@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 export default function Footer() {
     return (
         <div className="">
-
             <footer className="bg-white dark:bg-[#100d1a] px-9">
                 <div className="mx-auto w-full py-6 lg:py-8">
                     <div className="">
@@ -22,7 +21,6 @@ export default function Footer() {
                                 </div>
 
                             </div>
-
                             <div>
                                 <h2 className="mb-6 text-sm font-semibold text-[#240253] uppercase dark:text-white">Company</h2>
                                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -89,7 +87,6 @@ export default function Footer() {
                                 </ul>
                             </div>
 
-
                         </div>
                         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                         <div className="sm:flex sm:items-center sm:justify-between mx-auto">
@@ -132,10 +129,6 @@ export default function Footer() {
                 </div>
             </footer>
         </div>
-
-
-
-
 
     )
 }
